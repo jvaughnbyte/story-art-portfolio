@@ -178,6 +178,15 @@
 }
 
 @media (max-width: 768px) {
+
+  .navbar {
+  gap: 15px;
+  font-size: 0.9rem;
+  flex-wrap: wrap;
+  height: auto;
+  padding: 10px 0;
+}
+
   .thumbnail-grid {
     grid-template-columns: repeat(1, 1fr);
     width: 95%;
