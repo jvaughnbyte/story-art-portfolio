@@ -163,16 +163,17 @@
 }
 
 .board-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 10%;
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;  
+  gap: 20px;
+  width: 85%;
+  margin: 0 auto; 
 }
 
 .board {
   width: 30vw;
-  max-width: 380px;
+  max-width: 600px;
   aspect-ratio: 16 / 9;
   border: none;
 }
@@ -206,7 +207,7 @@
   }
 
   .board {
-    width: 100vw;
+    width: 90vw;
     border: none;
   }
 
